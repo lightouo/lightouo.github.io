@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: White Worker
+title: lightouo
 subtitle: 终极打工仔
 description: 正在穷忙的Web工程师，擅长ASP.NET Core Web应用，也略懂 EFK stack 及 Kubernetes，正在学习 Go语言
 keywords:
@@ -11,7 +11,7 @@ keywords:
   - .Net Core
   - Kubernetes
   - Istio
-author: White Worker
+author: lightouo
 avatar: /images/avatar.jpg
 favicon: /images/favicon.ico
 language: zh-CN

@@ -1,6 +1,6 @@
 ---
 title: ASP.NET Core Serilog ElasticSearch Format
-author: White Worker
+author: lightouo
 date: 2019-08-09 13:35:53
 tags:
   - ASP.NET Core
