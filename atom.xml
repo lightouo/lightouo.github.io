@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://lightouo.github.io/"/>
-  <updated>2019-08-10T04:40:58.905Z</updated>
+  <updated>2019-08-10T05:18:04.157Z</updated>
   <id>https://lightouo.github.io/</id>
   
   <author>
@@ -15,6 +15,20 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>HaoHigh</title>
+    <link href="https://lightouo.github.io/2019/08/10/haohigh/"/>
+    <id>https://lightouo.github.io/2019/08/10/haohigh/</id>
+    <published>2019-08-10T05:18:04.000Z</published>
+    <updated>2019-08-10T05:18:04.157Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>ASP.NET Core Serilog ElasticSearch Format</title>
