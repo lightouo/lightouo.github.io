@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://lightouo.github.io/"/>
-  <updated>2019-08-10T09:11:06.655Z</updated>
+  <updated>2019-08-10T09:21:23.260Z</updated>
   <id>https://lightouo.github.io/</id>
   
   <author>
@@ -21,27 +21,9 @@
     <link href="https://lightouo.github.io/2019/08/10/%E5%90%BC%E5%90%BC%E5%90%BC/"/>
     <id>https://lightouo.github.io/2019/08/10/吼吼吼/</id>
     <published>2019-08-10T09:09:55.000Z</published>
-    <updated>2019-08-10T09:11:06.655Z</updated>
+    <updated>2019-08-10T09:21:23.260Z</updated>
     
-    <content type="html"><![CDATA[<p>这是一个测试 哈哈哈</p><a id="more"></a><h2 id="1-把大象放进冰箱"><a href="#1-把大象放进冰箱" class="headerlink" title="1. 把大象放进冰箱"></a>1. 把大象放进冰箱</h2><p>put elephant in ice box</p><h2 id="2-关闭哦冰箱"><a href="#2-关闭哦冰箱" class="headerlink" title="2. 关闭哦冰箱"></a>2. 关闭哦冰箱</h2><p>Program.cs</p><figure class="highlight cs"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">close ice box</span><br></pre></td></tr></table></figure><h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><p><a href="https://www.baidu.com/" target="_blank" rel="noopener">baidu</a> </p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;这是一个测试 哈哈哈&lt;/p&gt;
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>HaoHai</title>
-    <link href="https://lightouo.github.io/2019/08/09/haohigh/"/>
-    <id>https://lightouo.github.io/2019/08/09/haohigh/</id>
-    <published>2019-08-09T05:35:53.000Z</published>
-    <updated>2019-08-10T05:27:50.096Z</updated>
-    
-    <content type="html"><![CDATA[<p>这是一个测试 哈哈哈</p><a id="more"></a><h2 id="1-把大象放进冰箱"><a href="#1-把大象放进冰箱" class="headerlink" title="1. 把大象放进冰箱"></a>1. 把大象放进冰箱</h2><p>put elephant in ice box</p><h2 id="2-关闭哦冰箱"><a href="#2-关闭哦冰箱" class="headerlink" title="2. 关闭哦冰箱"></a>2. 关闭哦冰箱</h2><p>Program.cs</p><figure class="highlight cs"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">close ice box</span><br></pre></td></tr></table></figure><h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><p><a href="https://www.baidu.com/" target="_blank" rel="noopener">baidu</a> </p>]]></content>
+    <content type="html"><![CDATA[<p>这是一个测试 哈哈哈</p><a id="more"></a><h2 id="1-把大象放进冰箱"><a href="#1-把大象放进冰箱" class="headerlink" title="1. 把大象放进冰箱"></a>1. 把大象放进冰箱</h2><p>put elephant in ice box<br><kbd>shift</kbd></p><h2 id="2-关闭哦冰箱"><a href="#2-关闭哦冰箱" class="headerlink" title="2. 关闭哦冰箱"></a>2. 关闭哦冰箱</h2><p>Program.cs</p><figure class="highlight cs"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">close ice box</span><br></pre></td></tr></table></figure><h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><p><a href="https://www.baidu.com/" target="_blank" rel="noopener">baidu</a> </p>]]></content>
     
     <summary type="html">
     
@@ -49,12 +31,6 @@
     
     </summary>
     
-      <category term="Daily" scheme="https://lightouo.github.io/categories/daily/"/>
-    
-    
-      <category term="Test" scheme="https://lightouo.github.io/tags/test/"/>
-    
-      <category term="Daily" scheme="https://lightouo.github.io/tags/daily/"/>
     
   </entry>
   
@@ -85,6 +61,30 @@
       <category term="ElasticSearch" scheme="https://lightouo.github.io/tags/elasticsearch/"/>
     
       <category term="Serilog" scheme="https://lightouo.github.io/tags/serilog/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>HaoHai</title>
+    <link href="https://lightouo.github.io/2019/08/09/haohigh/"/>
+    <id>https://lightouo.github.io/2019/08/09/haohigh/</id>
+    <published>2019-08-09T05:35:53.000Z</published>
+    <updated>2019-08-10T05:27:50.096Z</updated>
+    
+    <content type="html"><![CDATA[<p>这是一个测试 哈哈哈</p><a id="more"></a><h2 id="1-把大象放进冰箱"><a href="#1-把大象放进冰箱" class="headerlink" title="1. 把大象放进冰箱"></a>1. 把大象放进冰箱</h2><p>put elephant in ice box</p><h2 id="2-关闭哦冰箱"><a href="#2-关闭哦冰箱" class="headerlink" title="2. 关闭哦冰箱"></a>2. 关闭哦冰箱</h2><p>Program.cs</p><figure class="highlight cs"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">close ice box</span><br></pre></td></tr></table></figure><h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><p><a href="https://www.baidu.com/" target="_blank" rel="noopener">baidu</a> </p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;这是一个测试 哈哈哈&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Daily" scheme="https://lightouo.github.io/categories/daily/"/>
+    
+    
+      <category term="Test" scheme="https://lightouo.github.io/tags/test/"/>
+    
+      <category term="Daily" scheme="https://lightouo.github.io/tags/daily/"/>
     
   </entry>
   
