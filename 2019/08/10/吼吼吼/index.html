@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   
-  <title>ASP.NET Core Serilog ElasticSearch Format | lightouo</title>
+  <title>吼吼吼 | lightouo</title>
   <meta name="description" content="来自于山东大学的学霸">
   <meta name="keywords" content="blog,.Net Core,Kubernetes,Istio">
   <meta name="HandheldFriendly" content="True">
@@ -12,18 +12,18 @@
   <link rel="shortcut icon" href="/images/favicon.ico">
   <link rel="alternate" href="/atom.xml" title="lightouo">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="[ASP.NET Core 使用Serilog Format ElasticSearch]在使用微服务框架EFK收集ASP.NET Core日志的时候，默认Console.Log 打印出来的Log被ElasticSearch+Fluentd收集后颜色属性会产生乱码（低版本ES会直接报错)本篇将介绍 使用Serilog的ElasticSearch Format收集日志">
-<meta name="keywords" content="ASP.NET Core,C#,Log,ElasticSearch,Serilog">
+  <meta name="description" content="这是一个测试 哈哈哈">
+<meta name="keywords" content="blog,.Net Core,Kubernetes,Istio">
 <meta property="og:type" content="article">
-<meta property="og:title" content="ASP.NET Core Serilog ElasticSearch Format">
-<meta property="og:url" content="https://lightouo.github.io/2019/08/09/asp-net-core-serilog-elasticsearch-format/index.html">
+<meta property="og:title" content="吼吼吼">
+<meta property="og:url" content="https://lightouo.github.io/2019/08/10/吼吼吼/index.html">
 <meta property="og:site_name" content="lightouo">
-<meta property="og:description" content="[ASP.NET Core 使用Serilog Format ElasticSearch]在使用微服务框架EFK收集ASP.NET Core日志的时候，默认Console.Log 打印出来的Log被ElasticSearch+Fluentd收集后颜色属性会产生乱码（低版本ES会直接报错)本篇将介绍 使用Serilog的ElasticSearch Format收集日志">
+<meta property="og:description" content="这是一个测试 哈哈哈">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-08-10T05:25:44.630Z">
+<meta property="og:updated_time" content="2019-08-10T09:11:06.655Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="ASP.NET Core Serilog ElasticSearch Format">
-<meta name="twitter:description" content="[ASP.NET Core 使用Serilog Format ElasticSearch]在使用微服务框架EFK收集ASP.NET Core日志的时候，默认Console.Log 打印出来的Log被ElasticSearch+Fluentd收集后颜色属性会产生乱码（低版本ES会直接报错)本篇将介绍 使用Serilog的ElasticSearch Format收集日志">
+<meta name="twitter:title" content="吼吼吼">
+<meta name="twitter:description" content="这是一个测试 哈哈哈">
     
   <link href="https://fonts.googleapis.com/css?family=Inconsolata|Titillium+Web" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
@@ -134,67 +134,48 @@
   <div class="l_body">
     <div class='container clearfix'>
       <div class='l_main'>
-        <article id="post-asp-net-core-serilog-elasticsearch-format"
+        <article id="post-吼吼吼"
   class="post white-box article-type-post"
   itemscope itemprop="blogPost">
 	<section class='meta'>
 	<h2 class="title">
-  	<a href="/2019/08/09/asp-net-core-serilog-elasticsearch-format/">
-    	ASP.NET Core Serilog ElasticSearch Format
+  	<a href="/2019/08/10/吼吼吼/">
+    	吼吼吼
     </a>
   </h2>
 	<time>
-	  8月 9, 2019
+	  8月 10, 2019
 	</time>
 	
-    
-    <div class='cats'>
-        <a href="/categories/asp-net-core/">ASP.NET Core</a>
-    </div>
-
 	</section>
 	
 		<section class="m_widget toc-wrapper">
 			<div class=" header fa fa-bookmark">目录</div>
 			<div class=" content">
-				<ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-安装NuGet包"><span class="toc-number">1.</span> <span class="toc-text">1. 安装NuGet包</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-Startup"><span class="toc-number">2.</span> <span class="toc-text">2. Startup</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#参考"><span class="toc-number">3.</span> <span class="toc-text">参考</span></a></li></ol>
+				<ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-把大象放进冰箱"><span class="toc-number">1.</span> <span class="toc-text">1. 把大象放进冰箱</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-关闭哦冰箱"><span class="toc-number">2.</span> <span class="toc-text">2. 关闭哦冰箱</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#参考"><span class="toc-number">3.</span> <span class="toc-text">参考</span></a></li></ol>
 			</div>
 		</section>
 	
 	<section class="article typo">
   	<div class="article-entry" itemprop="articleBody">
-    	<p>[ASP.NET Core 使用Serilog Format ElasticSearch]<br>在使用微服务框架EFK收集ASP.NET Core日志的时候，默认Console.Log 打印出来的Log被ElasticSearch+Fluentd收集后颜色属性会产生乱码（低版本ES会直接报错)<br>本篇将介绍 使用Serilog的ElasticSearch Format收集日志</p>
+    	<p>这是一个测试 哈哈哈</p>
 <a id="more"></a>
-<h2 id="1-安装NuGet包"><a href="#1-安装NuGet包" class="headerlink" title="1. 安装NuGet包"></a>1. 安装NuGet包</h2><p>dotnet add package Serilog.AspNetCore<br>dotnet add package Serilog.Sinks.Console<br>dotnet add package Serilog.Sinks.ElasticSearch</p>
-<h2 id="2-Startup"><a href="#2-Startup" class="headerlink" title="2. Startup"></a>2. Startup</h2><p>Program.cs</p>
-<figure class="highlight cs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> IWebHostBuilder <span class="title">CreateWebHostBuilder</span>(<span class="params"><span class="keyword">string</span>[] args</span>)</span> =&gt;</span><br><span class="line">    WebHost.CreateDefaultBuilder(args)</span><br><span class="line">    .UseSerilog((ctx, config) =&gt;</span><br><span class="line">&#123;</span><br><span class="line">    config</span><br><span class="line">        .MinimumLevel.Information()</span><br><span class="line">        .Enrich.FromLogContext();</span><br><span class="line"></span><br><span class="line">    <span class="keyword">if</span> (ctx.HostingEnvironment.IsDevelopment())</span><br><span class="line">    &#123;</span><br><span class="line">        config.WriteTo.Console();</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span></span><br><span class="line">    &#123;</span><br><span class="line">        config.WriteTo.Console(<span class="keyword">new</span> ElasticsearchJsonFormatter());</span><br><span class="line">    &#125;</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
+<h2 id="1-把大象放进冰箱"><a href="#1-把大象放进冰箱" class="headerlink" title="1. 把大象放进冰箱"></a>1. 把大象放进冰箱</h2><p>put elephant in ice box</p>
+<h2 id="2-关闭哦冰箱"><a href="#2-关闭哦冰箱" class="headerlink" title="2. 关闭哦冰箱"></a>2. 关闭哦冰箱</h2><p>Program.cs</p>
+<figure class="highlight cs"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">close ice box</span><br></pre></td></tr></table></figure>
 
-<h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><p><a href="https://andrewlock.net/writing-logs-to-elasticsearch-with-fluentd-using-serilog-in-asp-net-core/" target="_blank" rel="noopener">writing-logs-to-elasticsearch-with-fluentd-using-serilog-in-asp-net-core</a> </p>
+<h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><p><a href="https://www.baidu.com/" target="_blank" rel="noopener">baidu</a> </p>
 
   	</div>
 	  
-	  <div class="article-tags tags">
-      
-        <a href="/tags/asp-net-core/">ASP.NET Core</a>
-      
-        <a href="/tags/c/">C#</a>
-      
-        <a href="/tags/log/">Log</a>
-      
-        <a href="/tags/elasticsearch/">ElasticSearch</a>
-      
-        <a href="/tags/serilog/">Serilog</a>
-      
-	  </div>
-    
 		
 	
 		<div class="art-item-footer">
 				
-					<span class="art-item-left"><i class="icon icon-chevron-thin-left"></i>prev：<a href="/2019/08/09/haohigh/" rel="prev"  title="HaoHai">
-						HaoHai 
-					</a></span>
 				
+					<span class="art-item-right">next：<a href="/2019/08/09/haohigh/" rel="next"  title="HaoHai">
+						HaoHai
+					</a><i class="icon icon-chevron-thin-right"></i></span>
 				
 		</div>
 	
@@ -203,7 +184,7 @@
 </article>
 <script>
 	window.subData = {
-		title: 'ASP.NET Core Serilog ElasticSearch Format',
+		title: '吼吼吼',
 		tools: true
 	}
 </script>
