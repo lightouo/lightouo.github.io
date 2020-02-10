@@ -4,15 +4,15 @@
 
 # Site
 title: lightouo
-subtitle: 终极打工仔
-description: 来自于山东大学的学霸
+subtitle: 终极摸鱼王
+description: 史史史莱姆
 keywords:
   - blog
   - .Net Core
   - Kubernetes
   - Istio
 author: lightouo
-avatar: /images/avatar.jpg
+avatar: /images/yes2.png
 favicon: /images/favicon.ico
 language: zh-CN
 timezone: Asia/Shanghai
