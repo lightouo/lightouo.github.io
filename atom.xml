@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://lightouo.github.io/"/>
-  <updated>2019-08-11T15:40:42.627Z</updated>
+  <updated>2020-02-10T06:21:29.004Z</updated>
   <id>https://lightouo.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>draw</title>
+    <link href="https://lightouo.github.io/2020/02/10/draw/"/>
+    <id>https://lightouo.github.io/2020/02/10/draw/</id>
+    <published>2020-02-10T06:21:28.000Z</published>
+    <updated>2020-02-10T06:21:29.004Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="画"><a href="#画" class="headerlink" title="画"></a>画</h1><img src="https://lightouo.github.io/images/yes2.png" style="zoom:33%;">]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;画&quot;&gt;&lt;a href=&quot;#画&quot; class=&quot;headerlink&quot; title=&quot;画&quot;&gt;&lt;/a&gt;画&lt;/h1&gt;&lt;img src=&quot;https://lightouo.github.io/images/yes2.png&quot; style=&quot;zoom:33%;&quot;&gt;
+
+
+      
+    
+    </summary>
+    
+    
+      <category term="draw" scheme="https://lightouo.github.io/tags/draw/"/>
+    
+  </entry>
   
   <entry>
     <title>摸鱼摸鱼</title>
